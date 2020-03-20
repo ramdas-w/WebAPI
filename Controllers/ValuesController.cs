@@ -7,8 +7,9 @@ using WebAPI.Models;
 
 namespace WebAPI.Controllers
 {
-    [Route("api/[controller]")]
-    public class ValuesController : Controller
+    [ApiController]
+    [Route("[controller]")]
+    public class ValuesController : ControllerBase
     {
         EmployeeDataAccessLayer objemployee = new EmployeeDataAccessLayer();
 
