@@ -35,7 +35,7 @@ namespace WebAPI.Models
                     employee.Name = rdr["Name"].ToString();
                     employee.Gender = rdr["Gender"].ToString();
                     employee.Department = rdr["Department"].ToString();
-                    employee.City = rdr["City"].ToString();
+                    employee.City = rdr["City"].ToString() ;
 
                     lstemployee.Add(employee);
                 }
